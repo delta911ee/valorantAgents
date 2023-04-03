@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agent viewer</title>
+    <link rel="stylesheet" href="viewer.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="titleContainer">
+        <img class="agentIcon" />
+        <h1 class="title"></h1>
+      </div>
+      <div class="content">
+        <div class="image" id="image">
+          <img class="agentImage" id="agentImage" />
+        </div>
+        <div class="info" id="info">
+          <h1 class="description">Description</h1>
+          <p id="descriptionText"></p>
+          <h1 class="role">Role</h1>
+          <p id="roleText"></p>
+          <h1 class="voiceLine">Voice lines</h1>
+          <audio controls id="voice" type="audio/wav"></audio>
+        </div>
+      </div>
+    </div>
+    <script src="view.js"></script>
+  </body>
+</html>
